@@ -2,13 +2,7 @@ export function generateHomePage () {
     //check its connecting
     console.log('hello');
 
-    //get the default div
-    const content = document.getElementById('content');
-    const newContent = document.createElement('div');
+    const testhtml = '<div><h1 id="hello">Welcome</h1></div>'
 
-    newContent.innerHTML = 'Home Page';
-    
-    content.appendChild(newContent);
-
-
+    return testhtml;
 }
