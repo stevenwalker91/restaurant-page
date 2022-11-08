@@ -2,7 +2,7 @@ export function generateContactPage () {
     //check its connecting
     console.log('hello');
 
-    const testhtml = '<div><h1 id="hello">Contact</h1></div>'
+    const testhtml = '<div class="container-black"><div class="container"><h1>Contact</h1></div></div>'
 
     return testhtml;
 }

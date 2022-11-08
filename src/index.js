@@ -3,10 +3,15 @@ import { generateMenuPage } from './menu.js';
 import { generateContactPage } from './contact.js';
 import './style.css';
 
+const renderInitialPage = () => {
+    //get the div that will be updated
+    const content = document.getElementById('responsive-content');
+    let contentToAdd = generateHomePage();
+    content.innerHTML = contentToAdd;
+}
 
 
-
-const renderPage = (event) => {
+const renderNewPage = (event) => {
     
     //kill the function if its not one of the list items selected
     if (event.target.tagName !== 'LI') {
@@ -35,7 +40,9 @@ const renderPage = (event) => {
 
 }
 
+renderInitialPage();
+
 //listen for nav clicks
 const navList = document.getElementById('nav-list');
-navList.addEventListener('click', renderPage);
+navList.addEventListener('click', renderNewPage);
 

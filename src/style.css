@@ -1,6 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #nav {
@@ -44,5 +45,35 @@ ul li:hover {
 #responsive-content {
 
     height: inherit;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.container-black {
+    background-color: rgba(1, 1, 1, 0.6);
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    color: white;
+}
+
+.container {
+    background-color: white;
+    height: 70%;
+    width: 100%;
+    padding: 30px;
+    color: black;
+
+}
+
+.logo {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
 
 }
