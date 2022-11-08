@@ -1,6 +1,8 @@
-import { generateHomePage } from './home.js'
-import { generateMenuPage } from './menu.js'
-import { generateContactPage } from './contact.js'
+import { generateHomePage } from './home.js';
+import { generateMenuPage } from './menu.js';
+import { generateContactPage } from './contact.js';
+import './style.css';
+
 
 
 
