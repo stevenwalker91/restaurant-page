@@ -38,10 +38,25 @@ ul li:hover {
 }
 
 #responsive-content {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+
+}
+
+#responsive-content::after {
+    content: "";
     background: url('./food-background.jpg');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     height: 100%;
-    filter: brightness(60%);
-}
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
