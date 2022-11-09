@@ -63,10 +63,12 @@ ul li:hover {
 
 .container {
     background-color: white;
-    height: 70%;
+    min-height: 70%;
     width: 100%;
     padding: 30px;
     color: black;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -77,3 +79,36 @@ ul li:hover {
     padding: 10px;
 
 }
+
+.menu-section {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    max-width: 300px;
+    min-width: 250px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.menu-space {
+    border-bottom: 1px solid gray;
+}
+
+.menu-description {
+    font-size: 13px;
+    color: gray;
+    grid-column: 1/4;
+}
+
+.menu-name, .menu-price {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
