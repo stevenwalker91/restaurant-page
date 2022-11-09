@@ -19,11 +19,13 @@ export function generateMenuPage () {
 
     //set up some default items for menu
 
-    addItemToMenu('Chicken Jalfrezi', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer.', 12, 'Curries')
-    addItemToMenu('Chicken Balti', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer.', 12, 'Curries')
-    addItemToMenu('Lamb Rogan Josh', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer.', 13, 'Curries')
-    addItemToMenu('Rice', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer.', 3, 'Sides')
-    addItemToMenu('Coca Cola', 'A refreshing beverage.', 1, 'Drinks')
+    addItemToMenu('Chicken Jalfrezi', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer.', 12, 'Curries');
+    addItemToMenu('Chicken Balti', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer.', 12, 'Curries');
+    addItemToMenu('Lamb Rogan Josh', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer.', 13, 'Curries');
+    addItemToMenu('Rice', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer.', 3, 'Sides');
+    addItemToMenu('Chips', 'Not very traditional.', 3, 'Sides');
+    addItemToMenu('Chips & Rice', 'Chips and rice Grace, chips AND rice.', 3, 'Sides');
+    addItemToMenu('Coca Cola', 'A refreshing beverage.', 1, 'Drinks');
     addItemToMenu('Irn Bru', 'A Scottish drink.', 1, 'Drinks');
     addItemToMenu('Tennents', 'A lovely beeer.', 1, 'Drinks');
 

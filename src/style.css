@@ -59,6 +59,7 @@ ul li:hover {
     height: 100%;
     display: flex;
     color: white;
+    justify-content: center;
 }
 
 .container {
@@ -72,10 +73,22 @@ ul li:hover {
 
 }
 
+.hero-banner {
+    max-width: 800px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
 .logo {
     font-family: 'Berkshire Swash', cursive;
     font-size: 40px;
-    color: white;
+    color: lightseagreen;
     padding: 10px;
 
 }
@@ -89,8 +102,9 @@ ul li:hover {
 .menu-item {
     display: grid;
     grid-template-columns: max-content 1fr max-content;
-    max-width: 300px;
-    min-width: 250px;
+    grid-template-rows: max-content 1fr;
+    width: 300px;
+
     grid-column-gap: 5px;
     grid-row-gap: 5px;
 }
